@@ -9,7 +9,7 @@ this is just an extremely simple hugo theme.
 in case you never been familiar with hugo, check the official [quick start tutorial](https://gohugo.io/getting-started/quick-start/) or if you believe me, just run the following command after you've installed [hugo](https://gohugo.io/getting-started/installing/)
 
 ```sh
-hugo new site your_blog_name
+$ hugo new site your_blog_name
 ```
 
 1. clone this repo into your themes directory
