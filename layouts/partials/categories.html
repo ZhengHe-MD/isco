@@ -1,0 +1,17 @@
+{{ if isset .Site.Taxonomies "categories" }}
+{{ if not (eq (len .Site.Taxonomies.categories) 0) }}
+    <div class="categories">
+        <div class="title">类别: </div>
+        <ul>
+            {{ range $name, $items := .Site.Taxonomies.categories }}
+                <li>
+                    <a href="{{ (print "categories/" ($name | urlize | lower) "/") | relURL }}" class="badge badge-light">
+                        {{ $name }}
+                        <span class="category-count">({{ len $items }})</span>
+                    </a>
+                </li>
+            {{ end }}
+        </ul>
+    </div>
+{{ end }}
+{{ end }}

@@ -1,0 +1,13 @@
+{{ define "main" }}
+<div class="post">
+    <div class="post-header">
+        <h3>{{.Title}}</h3>
+    </div>
+
+    {{ .Content }}
+
+    <time>
+        {{ dateFormat "2006年1月2日" .Date}}
+    </time>
+</div>
+{{ end }}

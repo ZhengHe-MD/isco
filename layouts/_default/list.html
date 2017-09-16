@@ -1,0 +1,24 @@
+{{ define "main" }}
+<div class="row site-body">
+    <div class="col-9 post-list">
+        {{ range .Data.Pages }}
+        <a class="post-item row" href="{{.Permalink}}">
+            <div class="col-10">
+                <h4>{{ .Title }}</h4>
+                <p>{{ .Params.introduce }}</p>
+            </div>
+            <div class="col-2">
+                <time>
+                    {{ dateFormat "2006年1月2日" .Date}}
+                </time>
+            </div>
+        </a>
+        {{ end }}
+    </div>
+    <div class="col-3 right-nav">
+        {{ partial "recent_posts" . }}
+        {{ partial "categories" . }}
+        {{ partial "tags" . }}
+    </div>
+</div>
+{{ end }}

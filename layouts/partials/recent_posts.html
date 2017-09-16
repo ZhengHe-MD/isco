@@ -1,0 +1,12 @@
+<div class="recent-posts">
+  <div class="title">最近: </div>
+  <ul>
+      {{ range first 1 .Site.Pages }}
+          <li>
+              <a href="{{ .Permalink }}" class="badge badge-light">
+                  {{ .Title }}
+              </a>
+          </li>
+      {{ end }}
+  </ul>
+</div>

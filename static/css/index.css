@@ -1,0 +1,140 @@
+.profile {
+    padding: 0;
+    border-radius: 3px;
+    max-height: 600px;
+    margin-top: 200px;
+}
+
+.profile .avatar {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+
+    position: relative;
+    left: calc(50% - 75px);
+    top: 20px;
+}
+
+.profile .divider {
+    z-index: -1;
+    position: relative;
+    top: -55px;
+}
+
+.profile figure figcaption {
+    margin-top: 50px;
+    text-align: left;
+}
+
+.social-icon-list {
+    list-style: none;
+    margin-top: 30px;
+}
+
+.social-icon-list li {
+    display: inline-block;
+}
+
+.social-icon {
+    color: #fff;
+    width: 30px;
+    height: 30px;
+
+    text-align: center;
+    line-height: 30px !important;
+    border-radius: 50%;
+}
+
+.fa-linkedin {
+    background-color: #007AB5;
+}
+
+.fa-twitter {
+    background-color: #5EA9DD;
+}
+
+.fa-github {
+    background-color: #000000;
+}
+
+.site-body {
+    padding: 20px;
+}
+
+/* post list page */
+.post-list {
+}
+
+.post-list a {
+    color: inherit;
+}
+
+.post-list a:hover {
+    text-decoration: none;
+}
+
+.post-item {
+    margin-bottom: 10px;
+}
+
+.post-item:hover {
+    border-bottom: 1px solid lightgray;
+    cursor: pointer;
+}
+
+.post-item p {
+    font-size: 12px;
+}
+
+.post-item time {
+    font-size: 10px;
+}
+
+.right-nav {
+    border-left: 1px solid lightgray;
+}
+
+/* post single page */
+.post {
+    padding-top: 50px;
+}
+
+.post-header {
+    text-align: center;
+}
+
+.post time {
+    float: right;
+}
+
+/* categories */
+.categories {}
+.categories .title {}
+.categories .category-count {
+    font-size: 10px;
+}
+.categories ul li {
+    list-style: none;
+}
+
+/* tags */
+.tags {}
+.tags .title {}
+.tags .category-count {
+    font-size: 10px;
+}
+.tags ul li {
+    list-style: none;
+}
+
+/* recent-post */
+.recent-posts {}
+.recent-posts .title {}
+.recent-posts ul li {
+    list-style: none;
+}
+
+.hljs {
+    border-radius: 5px;
+    padding: 10px 20px;
+}
