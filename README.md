@@ -1,6 +1,6 @@
 # ISCO
 
-this is just an extremely simple hugo theme.
+This is just an extremely simple hugo theme. An example website can be found [here](https://zhenghe-md.github.io/)
 
 ## How to install
 
